@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#formSection {
+    background: linear-gradient(to right, #4CAF50, #81C784);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#formSection form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#formSection label {
+    margin-top: 2px;
+    font-weight: bold;
+    color: white;
+}
+
+#formSection input, #formSection select {
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 300px;
+}
+
+#resultSection {
+    position: relative;
+}
+
+#infoContainer {
+    margin-bottom: 20px;
+}
+
+.infoBox {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    width: 50%;
+}
+body{color: white;}
+
+#titleBox {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#feeBox, #participantsBox, #totalBox {
+    width: 45%;
+    display: inline-block;
+    margin: 10px 2%;
+}
+
+#tableContainer {
+    margin-top: 20px;
+    border-radius: 10px;
+    background: url('galery/background.jpg') no-repeat center;
+    background-size: cover;
+    padding: 20px;
+    opacity: 0.9;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px auto;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.logo {
+    width: 200px;
+    margin-bottom: 0px;
+}
+
+.infobox_tabular{
+    display: flex;
+}
+
+#displayTitle{
+    font-size: 18pt;
+}
+
+#totalBox{
+    width: 90%;
+}
+
+p{
+    margin: 0px;
+}
+
+.socialimg{
+    width: 30px;
+}
+
+#socialbox{
+    background-color: #f4f4f9;
+    color: black;
+}
