@@ -71,11 +71,15 @@ function displayTable(data) {
 
 function downloadImage() {
     const tableContainer = document.getElementById('tableContainer');
+    const month = document.getElementById('month').value;
+    const year = document.getElementById('year').value;
+    const monthName = document.getElementById('month').options[document.getElementById('month').selectedIndex].text;
+
     html2canvas(tableContainer, {
-        backgroundColor: null
+        backgroundColor: '#fff' // Garante que o fundo seja branco
     }).then(canvas => {
         const link = document.createElement('a');
-        link.download = 'tabela.png';
+        link.download = `${monthName}.${year}.png`; // Nomeia a imagem com o formato #mes-selecionado.ano#
         link.href = canvas.toDataURL();
         link.click();
     });
